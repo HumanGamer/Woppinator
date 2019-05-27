@@ -849,15 +849,15 @@ namespace Woppinator
             result.FutureInt24 = br.ReadInt32();
             result.FutureInt25 = br.ReadInt32();
             result.ScaleAdjust = br.ReadSingle();
-            result.FutureFloat2 = br.ReadInt32();
-            result.FutureFloat3 = br.ReadInt32();
-            result.FutureFloat4 = br.ReadInt32();
-            result.FutureFloat5 = br.ReadInt32();
-            result.FutureFloat6 = br.ReadInt32();
-            result.FutureFloat7 = br.ReadInt32();
-            result.FutureFloat8 = br.ReadInt32();
-            result.FutureFloat9 = br.ReadInt32();
-            result.FutureFloat10 = br.ReadInt32();
+            result.FutureFloat2 = br.ReadSingle();
+            result.FutureFloat3 = br.ReadSingle();
+            result.FutureFloat4 = br.ReadSingle();
+            result.FutureFloat5 = br.ReadSingle();
+            result.FutureFloat6 = br.ReadSingle();
+            result.FutureFloat7 = br.ReadSingle();
+            result.FutureFloat8 = br.ReadSingle();
+            result.FutureFloat9 = br.ReadSingle();
+            result.FutureFloat10 = br.ReadSingle();
             result.FutureString1 = br.ReadBlitzString();
             result.FutureString2 = br.ReadBlitzString();
 
