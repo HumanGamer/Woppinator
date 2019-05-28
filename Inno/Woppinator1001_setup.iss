@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Woppinator"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.0.0.1"
 #define MyAppURL "http://www.pcpuzzle.com/forum"
 #define MyAppExeName "Woppinator.exe"
 
@@ -21,7 +21,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 LicenseFile=.\License.txt
 OutputDir=.\Output
-OutputBaseFilename=Woppinator100_setup
+OutputBaseFilename=Woppinator1001_setup
 Compression=lzma
 SolidCompression=yes
 

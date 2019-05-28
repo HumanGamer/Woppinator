@@ -32,6 +32,7 @@
             this.pboLogo = new System.Windows.Forms.PictureBox();
             this.lblAboutText = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +64,14 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Location = new System.Drawing.Point(138, 119);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(0, 13);
+            this.lblVersion.TabIndex = 3;
+            // 
             // AboutDlg
             // 
             this.AcceptButton = this.btnClose;
@@ -70,6 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(486, 144);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblAboutText);
             this.Controls.Add(this.pboLogo);
@@ -79,8 +89,10 @@
             this.Name = "AboutDlg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About Woppinator";
+            this.Load += new System.EventHandler(this.AboutDlg_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -89,5 +101,6 @@
         private System.Windows.Forms.PictureBox pboLogo;
         private System.Windows.Forms.Label lblAboutText;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label lblVersion;
     }
 }

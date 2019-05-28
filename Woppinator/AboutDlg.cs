@@ -21,5 +21,10 @@ namespace Woppinator
         {
             Close();
         }
+
+        private void AboutDlg_Load(object sender, EventArgs e)
+        {
+            lblVersion.Text = "v" + Application.ProductVersion;
+        }
     }
 }
