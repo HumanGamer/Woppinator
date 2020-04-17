@@ -40,6 +40,7 @@ namespace Woppinator
                 return;
 
             txtModel.Text = SelectedWopFile.ModelName;
+            chkModel.Checked = SelectedWopFile["ModelName"];
             txtTexture.Text = SelectedWopFile.TextureName;
             chkTexture.Checked = SelectedWopFile["TextureName"];
             nudXScale.Value = (decimal)SelectedWopFile.XScale;
@@ -206,6 +207,7 @@ namespace Woppinator
             WopFile result = new WopFile();
 
             result.ModelName = txtModel.Text;
+            result["ModelName"] = chkModel.Checked;
             result.TextureName = txtTexture.Text;
             result["TextureName"] = chkTexture.Checked;
             result.XScale = (float)nudXScale.Value;
