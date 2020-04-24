@@ -21,7 +21,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 LicenseFile=.\License.txt
 OutputDir=.\Output
-OutputBaseFilename=Woppinator1001_setup
+OutputBaseFilename=Woppinator1002_setup
 Compression=lzma
 SolidCompression=yes
 
